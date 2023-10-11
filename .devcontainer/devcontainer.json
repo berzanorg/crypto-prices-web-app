@@ -8,7 +8,9 @@
                 "terminal.integrated.shellIntegration.decorationsEnabled": "never"
             },
             "extensions": [
-                "golang.Go"
+                "golang.Go",
+                "bradlc.vscode-tailwindcss",
+                "heybourn.headwind"
             ]
         }
     }
