@@ -1,0 +1,15 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shellIntegration.decorationsEnabled": "never"
+            },
+            "extensions": [
+                "golang.Go"
+            ]
+        }
+    }
+}
