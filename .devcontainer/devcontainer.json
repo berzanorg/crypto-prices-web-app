@@ -5,12 +5,13 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "terminal.integrated.shellIntegration.decorationsEnabled": "never"
+                "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+                "gopls": {
+                    "ui.semanticTokens": true
+                }
             },
             "extensions": [
-                "golang.Go",
-                "bradlc.vscode-tailwindcss",
-                "heybourn.headwind"
+                "golang.Go"
             ]
         }
     }
